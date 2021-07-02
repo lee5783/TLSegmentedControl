@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.author             = "lee5783"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.platform     = :ios, "12.0"
+  s.platform     = :ios, "10.0"
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.source       = { :git => "https://github.com/lee5783/TLSegmentedControl.git", :tag => "0.0.1" }
