@@ -1,0 +1,23 @@
+PODS:
+  - TLSegmentedControl (1.0.0)
+  - Toaster (2.3.0)
+
+DEPENDENCIES:
+  - TLSegmentedControl (from `../`)
+  - Toaster
+
+SPEC REPOS:
+  trunk:
+    - Toaster
+
+EXTERNAL SOURCES:
+  TLSegmentedControl:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TLSegmentedControl: 57a5787acf9d1cbd93d27637c063bd913ca3f783
+  Toaster: c3473963c78e8cabbf6ea6f11ad0fdaae6f54987
+
+PODFILE CHECKSUM: f4b6464019dc54b678e48ac7825f0ac84a9bb360
+
+COCOAPODS: 1.10.1
