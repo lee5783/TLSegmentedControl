@@ -32,7 +32,7 @@ A custom segmented control for iOS.</br>
 
 ### Installation with CocoaPods
 ```ruby
-    pod 'TLSegmentedControl'
+    pod 'TLSegmentedControl-iOS'
 ```
 ## License
 Usage is provided under the [MIT License](http://opensource.org/licenses/mit-license.php). See LICENSE for the full details.

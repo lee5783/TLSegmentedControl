@@ -1,9 +1,9 @@
 PODS:
-  - TLSegmentedControl (0.0.1)
+  - TLSegmentedControl-iOS (1.0.0)
   - Toaster (2.3.0)
 
 DEPENDENCIES:
-  - TLSegmentedControl (from `../`)
+  - TLSegmentedControl-iOS (from `../`)
   - Toaster
 
 SPEC REPOS:
@@ -11,13 +11,13 @@ SPEC REPOS:
     - Toaster
 
 EXTERNAL SOURCES:
-  TLSegmentedControl:
+  TLSegmentedControl-iOS:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TLSegmentedControl: a5c81dffaf2af14cdcd3efac918247f1f2cda0d0
+  TLSegmentedControl-iOS: ad8e71a9051e22cfbbc6688f03950111e9618113
   Toaster: c3473963c78e8cabbf6ea6f11ad0fdaae6f54987
 
-PODFILE CHECKSUM: 5ba0bf6bad40b8886ce7409ce616bab7ec879492
+PODFILE CHECKSUM: 2e62fcdbc4a5296d4e42f984de16e50142096403
 
 COCOAPODS: 1.10.1

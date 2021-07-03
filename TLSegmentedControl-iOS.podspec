@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.name         = "TLSegmentedControl"
+  s.name         = "TLSegmentedControl-iOS"
   s.version      = "1.0.0"
   s.summary      = "A custom segmented control for iOS."
   s.description  = "A custom segmented control for iOS."

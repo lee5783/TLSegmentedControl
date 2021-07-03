@@ -211,12 +211,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TLSegmentedControlExample/Pods-TLSegmentedControlExample-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/TLSegmentedControl/TLSegmentedControl.framework",
+				"${BUILT_PRODUCTS_DIR}/TLSegmentedControl-iOS/TLSegmentedControl_iOS.framework",
 				"${BUILT_PRODUCTS_DIR}/Toaster/Toaster.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TLSegmentedControl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TLSegmentedControl_iOS.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toaster.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
