@@ -2,11 +2,11 @@ Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name         = "TLSegmentedControl"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "A custom segmented control for iOS."
   s.description  = "A custom segmented control for iOS."
   s.homepage     = "https://github.com/lee5783/TLSegmentedControl"
-  # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
+  s.screenshots  = "https://github.com/lee5783/TLSegmentedControl/raw/master/demo.gif"
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.license      = { :type => "MIT", :file => "LICENSE" }
@@ -18,8 +18,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "10.0"
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.source       = { :git => "https://github.com/lee5783/TLSegmentedControl.git", :tag => "0.0.1" }
-  # s.source       = { :path => '.' }
+  s.source       = { :git => "https://github.com/lee5783/TLSegmentedControl.git", :tag => "1.0.0" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.source_files  = "Classes", "Classes/**/*.{h,m,swift,xib}"
