@@ -146,6 +146,7 @@
 				TargetAttributes = {
 					66C9A2801E0C238A000E4AD3 = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 9XD675W6D2;
 						LastSwiftMigration = 1200;
 						ProvisioningStyle = Automatic;
 					};
@@ -379,6 +380,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9XD675W6D2;
 				INFOPLIST_FILE = "$(SRCROOT)/TLSegmentedControlExample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lee5783.TLSegmentedControlExample;
@@ -393,6 +395,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9XD675W6D2;
 				INFOPLIST_FILE = "$(SRCROOT)/TLSegmentedControlExample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lee5783.TLSegmentedControlExample;
