@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import TLSegmentedControl
+import TLSegmentedControl_iOS
 import Toaster
 
 class ViewController: UITableViewController {
