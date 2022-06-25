@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 protocol XibLoadable {
     func load(from xibName: String, bundle: Bundle?) -> Bool
