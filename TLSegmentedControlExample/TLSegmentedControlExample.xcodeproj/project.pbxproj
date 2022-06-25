@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		6603026C268ECB29002C101C /* SegmentedCustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6603026B268ECB29002C101C /* SegmentedCustomView.xib */; };
 		6603026E268ECB38002C101C /* SegmentedCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6603026D268ECB38002C101C /* SegmentedCustomView.swift */; };
-		66B8FA22268E0FB60029F54D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B8FA19268E0FB60029F54D /* ViewController.swift */; };
+		66B8FA22268E0FB60029F54D /* SegmentedControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B8FA19268E0FB60029F54D /* SegmentedControlViewController.swift */; };
 		66B8FA23268E0FB60029F54D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66B8FA1A268E0FB60029F54D /* Assets.xcassets */; };
 		66B8FA24268E0FB60029F54D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66B8FA1B268E0FB60029F54D /* LaunchScreen.storyboard */; };
-		66B8FA25268E0FB60029F54D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66B8FA1D268E0FB60029F54D /* Main.storyboard */; };
+		66B8FA25268E0FB60029F54D /* SegmentedControl.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66B8FA1D268E0FB60029F54D /* SegmentedControl.storyboard */; };
 		66B8FA27268E0FB60029F54D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B8FA20268E0FB60029F54D /* AppDelegate.swift */; };
 		EF88ACBD14521A5B6C04A846 /* Pods_TLSegmentedControlExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9622310710921A9F4D1DCCF0 /* Pods_TLSegmentedControlExample.framework */; };
 /* End PBXBuildFile section */
@@ -36,10 +36,10 @@
 		46D317F5C5D552CA5D2A1DAF /* Pods-TLMonthYearPickerExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLMonthYearPickerExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-TLMonthYearPickerExample/Pods-TLMonthYearPickerExample.release.xcconfig"; sourceTree = "<group>"; };
 		6603026B268ECB29002C101C /* SegmentedCustomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SegmentedCustomView.xib; sourceTree = "<group>"; };
 		6603026D268ECB38002C101C /* SegmentedCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedCustomView.swift; sourceTree = "<group>"; };
-		66B8FA19268E0FB60029F54D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		66B8FA19268E0FB60029F54D /* SegmentedControlViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentedControlViewController.swift; sourceTree = "<group>"; };
 		66B8FA1A268E0FB60029F54D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66B8FA1C268E0FB60029F54D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		66B8FA1E268E0FB60029F54D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66B8FA1E268E0FB60029F54D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/SegmentedControl.storyboard; sourceTree = "<group>"; };
 		66B8FA20268E0FB60029F54D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66B8FA21268E0FB60029F54D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		66C9A2811E0C238A000E4AD3 /* TLSegmentedControlExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TLSegmentedControlExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,16 +81,24 @@
 		66B8FA18268E0FB60029F54D /* TLSegmentedControlExample */ = {
 			isa = PBXGroup;
 			children = (
+				66C553B3286759450084C762 /* Classes */,
 				66B8FA21268E0FB60029F54D /* Info.plist */,
 				66B8FA20268E0FB60029F54D /* AppDelegate.swift */,
-				66B8FA19268E0FB60029F54D /* ViewController.swift */,
 				66B8FA1A268E0FB60029F54D /* Assets.xcassets */,
 				66B8FA1B268E0FB60029F54D /* LaunchScreen.storyboard */,
-				66B8FA1D268E0FB60029F54D /* Main.storyboard */,
-				6603026B268ECB29002C101C /* SegmentedCustomView.xib */,
-				6603026D268ECB38002C101C /* SegmentedCustomView.swift */,
 			);
 			path = TLSegmentedControlExample;
+			sourceTree = "<group>";
+		};
+		66C553B3286759450084C762 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				66B8FA19268E0FB60029F54D /* SegmentedControlViewController.swift */,
+				6603026B268ECB29002C101C /* SegmentedCustomView.xib */,
+				6603026D268ECB38002C101C /* SegmentedCustomView.swift */,
+				66B8FA1D268E0FB60029F54D /* SegmentedControl.storyboard */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		66C9A2781E0C238A000E4AD3 = {
@@ -177,7 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				66B8FA23268E0FB60029F54D /* Assets.xcassets in Resources */,
-				66B8FA25268E0FB60029F54D /* Main.storyboard in Resources */,
+				66B8FA25268E0FB60029F54D /* SegmentedControl.storyboard in Resources */,
 				6603026C268ECB29002C101C /* SegmentedCustomView.xib in Resources */,
 				66B8FA24268E0FB60029F54D /* LaunchScreen.storyboard in Resources */,
 			);
@@ -232,7 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				66B8FA27268E0FB60029F54D /* AppDelegate.swift in Sources */,
-				66B8FA22268E0FB60029F54D /* ViewController.swift in Sources */,
+				66B8FA22268E0FB60029F54D /* SegmentedControlViewController.swift in Sources */,
 				6603026E268ECB38002C101C /* SegmentedCustomView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,12 +256,12 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		66B8FA1D268E0FB60029F54D /* Main.storyboard */ = {
+		66B8FA1D268E0FB60029F54D /* SegmentedControl.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				66B8FA1E268E0FB60029F54D /* Base */,
 			);
-			name = Main.storyboard;
+			name = SegmentedControl.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
