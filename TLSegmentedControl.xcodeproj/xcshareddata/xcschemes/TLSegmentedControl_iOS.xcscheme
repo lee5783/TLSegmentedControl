@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "661ED1F81E0C218A005EE500"
-               BuildableName = "TLSegmentedControl-iOS.framework"
+               BuildableName = "TLSegmentedControl_iOS.framework"
                BlueprintName = "TLSegmentedControl_iOS"
                ReferencedContainer = "container:TLSegmentedControl.xcodeproj">
             </BuildableReference>
@@ -51,7 +51,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "661ED1F81E0C218A005EE500"
-            BuildableName = "TLSegmentedControl-iOS.framework"
+            BuildableName = "TLSegmentedControl_iOS.framework"
             BlueprintName = "TLSegmentedControl_iOS"
             ReferencedContainer = "container:TLSegmentedControl.xcodeproj">
          </BuildableReference>
