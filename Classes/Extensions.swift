@@ -42,6 +42,10 @@ extension XibLoadable where Self: UIView {
 
 public extension Bundle {
     static var segmentedControl: Bundle {
+        #if SWIFT_PACKAGE
+        return Bundle.module
+        #else
         return Bundle(for: TLSegmentedControl.self)
+        #endif
     }
 }
