@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		661ED1F91E0C218A005EE500 /* TLSegmentedControl-iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "TLSegmentedControl-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		661ED1F91E0C218A005EE500 /* TLSegmentedControl_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TLSegmentedControl_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		66B8F9EA268E0DC30029F54D /* TLSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLSegmentedControl.h; sourceTree = "<group>"; };
 		66B8F9EB268E0DC30029F54D /* TLSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TLSegmentedControl.swift; sourceTree = "<group>"; };
 		66B8FA03268E0DC30029F54D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		661ED1FA1E0C218A005EE500 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				661ED1F91E0C218A005EE500 /* TLSegmentedControl-iOS.framework */,
+				661ED1F91E0C218A005EE500 /* TLSegmentedControl_iOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,9 +89,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		661ED1F81E0C218A005EE500 /* TLSegmentedControl-iOS */ = {
+		661ED1F81E0C218A005EE500 /* TLSegmentedControl_iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 661ED2011E0C218A005EE500 /* Build configuration list for PBXNativeTarget "TLSegmentedControl-iOS" */;
+			buildConfigurationList = 661ED2011E0C218A005EE500 /* Build configuration list for PBXNativeTarget "TLSegmentedControl_iOS" */;
 			buildPhases = (
 				661ED1F41E0C218A005EE500 /* Sources */,
 				661ED1F51E0C218A005EE500 /* Frameworks */,
@@ -102,9 +102,9 @@
 			);
 			dependencies = (
 			);
-			name = "TLSegmentedControl-iOS";
+			name = TLSegmentedControl_iOS;
 			productName = TLMonthYearPicker;
-			productReference = 661ED1F91E0C218A005EE500 /* TLSegmentedControl-iOS.framework */;
+			productReference = 661ED1F91E0C218A005EE500 /* TLSegmentedControl_iOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -136,7 +136,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				661ED1F81E0C218A005EE500 /* TLSegmentedControl-iOS */,
+				661ED1F81E0C218A005EE500 /* TLSegmentedControl_iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -345,7 +345,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		661ED2011E0C218A005EE500 /* Build configuration list for PBXNativeTarget "TLSegmentedControl-iOS" */ = {
+		661ED2011E0C218A005EE500 /* Build configuration list for PBXNativeTarget "TLSegmentedControl_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				661ED2021E0C218A005EE500 /* Debug */,
