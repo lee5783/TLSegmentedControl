@@ -9,13 +9,21 @@
 /* Begin PBXBuildFile section */
 		66B8FA08268E0DC30029F54D /* TLSegmentedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 66B8F9EA268E0DC30029F54D /* TLSegmentedControl.h */; };
 		66B8FA09268E0DC30029F54D /* TLSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B8F9EB268E0DC30029F54D /* TLSegmentedControl.swift */; };
+		66C553AF286756BE0084C762 /* TLSegmentedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C553AB286756BE0084C762 /* TLSegmentedCell.swift */; };
+		66C553B0286756BE0084C762 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C553AC286756BE0084C762 /* Extensions.swift */; };
+		66C553B1286756BE0084C762 /* TLSegmentedDefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C553AD286756BE0084C762 /* TLSegmentedDefaultView.swift */; };
+		66C553B2286756BE0084C762 /* TLSegmentedDefaultView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66C553AE286756BE0084C762 /* TLSegmentedDefaultView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		661ED1F91E0C218A005EE500 /* TLSegmentedControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TLSegmentedControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		661ED1F91E0C218A005EE500 /* TLSegmentedControl_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TLSegmentedControl_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		66B8F9EA268E0DC30029F54D /* TLSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLSegmentedControl.h; sourceTree = "<group>"; };
 		66B8F9EB268E0DC30029F54D /* TLSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TLSegmentedControl.swift; sourceTree = "<group>"; };
 		66B8FA03268E0DC30029F54D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66C553AB286756BE0084C762 /* TLSegmentedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TLSegmentedCell.swift; sourceTree = "<group>"; };
+		66C553AC286756BE0084C762 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		66C553AD286756BE0084C762 /* TLSegmentedDefaultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TLSegmentedDefaultView.swift; sourceTree = "<group>"; };
+		66C553AE286756BE0084C762 /* TLSegmentedDefaultView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TLSegmentedDefaultView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +48,7 @@
 		661ED1FA1E0C218A005EE500 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				661ED1F91E0C218A005EE500 /* TLSegmentedControl.framework */,
+				661ED1F91E0C218A005EE500 /* TLSegmentedControl_iOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,6 +65,10 @@
 		66B8F9E9268E0DC30029F54D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				66C553AC286756BE0084C762 /* Extensions.swift */,
+				66C553AB286756BE0084C762 /* TLSegmentedCell.swift */,
+				66C553AD286756BE0084C762 /* TLSegmentedDefaultView.swift */,
+				66C553AE286756BE0084C762 /* TLSegmentedDefaultView.xib */,
 				66B8F9EA268E0DC30029F54D /* TLSegmentedControl.h */,
 				66B8F9EB268E0DC30029F54D /* TLSegmentedControl.swift */,
 			);
@@ -77,9 +89,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		661ED1F81E0C218A005EE500 /* TLSegmentedControl */ = {
+		661ED1F81E0C218A005EE500 /* TLSegmentedControl_iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 661ED2011E0C218A005EE500 /* Build configuration list for PBXNativeTarget "TLSegmentedControl" */;
+			buildConfigurationList = 661ED2011E0C218A005EE500 /* Build configuration list for PBXNativeTarget "TLSegmentedControl_iOS" */;
 			buildPhases = (
 				661ED1F41E0C218A005EE500 /* Sources */,
 				661ED1F51E0C218A005EE500 /* Frameworks */,
@@ -90,9 +102,9 @@
 			);
 			dependencies = (
 			);
-			name = TLSegmentedControl;
+			name = TLSegmentedControl_iOS;
 			productName = TLMonthYearPicker;
-			productReference = 661ED1F91E0C218A005EE500 /* TLSegmentedControl.framework */;
+			productReference = 661ED1F91E0C218A005EE500 /* TLSegmentedControl_iOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -124,7 +136,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				661ED1F81E0C218A005EE500 /* TLSegmentedControl */,
+				661ED1F81E0C218A005EE500 /* TLSegmentedControl_iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -134,6 +146,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66C553B2286756BE0084C762 /* TLSegmentedDefaultView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,7 +157,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66C553AF286756BE0084C762 /* TLSegmentedCell.swift in Sources */,
+				66C553B0286756BE0084C762 /* Extensions.swift in Sources */,
 				66B8FA09268E0DC30029F54D /* TLSegmentedControl.swift in Sources */,
+				66C553B1286756BE0084C762 /* TLSegmentedDefaultView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,7 +218,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -260,7 +276,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -284,11 +300,14 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lee5783.TLSegmentedControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -304,10 +323,13 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lee5783.TLSegmentedControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -323,7 +345,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		661ED2011E0C218A005EE500 /* Build configuration list for PBXNativeTarget "TLSegmentedControl" */ = {
+		661ED2011E0C218A005EE500 /* Build configuration list for PBXNativeTarget "TLSegmentedControl_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				661ED2021E0C218A005EE500 /* Debug */,

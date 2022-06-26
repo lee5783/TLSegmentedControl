@@ -1,8 +1,12 @@
 # TLSegmentedControl
 A custom segmented control for iOS.</br>
 
+[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/TLSegmentedControl-iOS.svg?style=flat-square)](https://img.shields.io/cocoapods/v/TLSegmentedControl-iOS.svg)
+[![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat-square)](https://github.com/Carthage/Carthage)
+[![Swift Package Manager](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange?style=flat-square)](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange?style=flat-square)
+
 <p align="center">
- <img src="https://github.com/lee5783/TLSegmentedControl/raw/master/demo.gif" alt="TLMonthYearPicker"/>
+ <img src="https://github.com/lee5783/TLSegmentedControl/raw/master/demo.gif" alt="TLSegmentedControl"/>
 </p>
 
 ## How it works
@@ -33,6 +37,18 @@ A custom segmented control for iOS.</br>
 ### Installation with CocoaPods
 ```ruby
     pod 'TLSegmentedControl-iOS'
+```
+
+### Installation with Carthage
+```ruby
+    github "lee5783/TLSegmentedControl"
+```
+
+### Installation with Swift Package Manager
+```ruby
+    dependencies: [
+        .package(url: "https://github.com/lee5783/TLSegmentedControl.git", .upToNextMajor(from: "1.1.0"))
+    ]
 ```
 ## License
 Usage is provided under the [MIT License](http://opensource.org/licenses/mit-license.php). See LICENSE for the full details.

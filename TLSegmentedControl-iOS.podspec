@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name         = "TLSegmentedControl-iOS"
-  s.version      = "1.0.0"
+  s.version      = "1.1.0"
   s.summary      = "A custom segmented control for iOS."
   s.description  = "A custom segmented control for iOS."
   s.homepage     = "https://github.com/lee5783/TLSegmentedControl"
@@ -15,10 +15,10 @@ Pod::Spec.new do |s|
   s.author             = "lee5783"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.platform     = :ios, "10.0"
+  s.platform     = :ios, "11.0"
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.source       = { :git => "https://github.com/lee5783/TLSegmentedControl.git", :tag => "1.0.0" }
+  s.source       = { :git => "https://github.com/lee5783/TLSegmentedControl.git", :tag => "1.1.0" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.source_files  = "Classes", "Classes/**/*.{h,m,swift,xib}"

@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 class TLSegmentedCell: UIView, XibLoadable {
     fileprivate var _name: String!

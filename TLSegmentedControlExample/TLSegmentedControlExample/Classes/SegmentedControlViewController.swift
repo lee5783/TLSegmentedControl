@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  SegmentedControlViewController.swift
 //  TLMonthYearPickerExample
 //
 //  Created by Thu Le on 12/22/16.
@@ -10,7 +10,7 @@ import UIKit
 import TLSegmentedControl_iOS
 import Toaster
 
-class ViewController: UITableViewController {
+class SegmentedControlViewController: UITableViewController {
     @IBOutlet weak var defaultSegmentedControl: TLSegmentedControl! {
         didSet {
             defaultSegmentedControl.delegate = self
@@ -48,7 +48,7 @@ class ViewController: UITableViewController {
     }
 }
 
-extension ViewController: TLSegmentedControlDelegate {
+extension SegmentedControlViewController: TLSegmentedControlDelegate {
     func segmentedControl(segmentedControl: TLSegmentedControl, itemDidSelect name: String, atIndex index: Int) {
         Toast(text: "Select item: \(name) at index: \(index) ").show()
     }

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Gxb-ko-VV5">
-    <device id="retina4_0" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Gxb-ko-VV5">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -13,7 +13,7 @@
             <objects>
                 <navigationController id="Gxb-ko-VV5" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Huk-Jn-R8M">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -24,22 +24,22 @@
             </objects>
             <point key="canvasLocation" x="-986" y="135"/>
         </scene>
-        <!--View Controller-->
+        <!--TLSegmentedControl-->
         <scene sceneID="T8s-rw-VYt">
             <objects>
-                <tableViewController id="RMv-2w-yZk" customClass="ViewController" customModule="TLSegmentedControlExample" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="SegmentedControlViewController" id="RMv-2w-yZk" customClass="SegmentedControlViewController" customModule="TLSegmentedControlExample" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="7xK-up-hro">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <sections>
                             <tableViewSection id="97b-Tr-FKn">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="131" id="EdP-hi-Xbo">
-                                        <rect key="frame" x="0.0" y="24.5" width="320" height="131"/>
+                                        <rect key="frame" x="0.0" y="44.5" width="414" height="131"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="EdP-hi-Xbo" id="H5L-XC-yPD">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="131"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="131"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Defaults" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6ch-qX-7By">
@@ -49,7 +49,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iB1-0B-zoG" customClass="TLSegmentedControl" customModule="TLSegmentedControl_iOS">
-                                                    <rect key="frame" x="20" y="71" width="280" height="50"/>
+                                                    <rect key="frame" x="20" y="71" width="374" height="50"/>
                                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="50" id="6rs-P1-jUt"/>
@@ -67,10 +67,10 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="131" id="tiL-zX-5JF">
-                                        <rect key="frame" x="0.0" y="155.5" width="320" height="131"/>
+                                        <rect key="frame" x="0.0" y="175.5" width="414" height="131"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="tiL-zX-5JF" id="XiF-tO-f9g">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="131"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="131"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Custom Appearance" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H57-Ca-Jb5">
@@ -80,7 +80,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SjR-eI-bDW" customClass="TLSegmentedControl" customModule="TLSegmentedControl_iOS">
-                                                    <rect key="frame" x="20" y="71" width="280" height="50"/>
+                                                    <rect key="frame" x="20" y="71" width="374" height="50"/>
                                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="50" id="ChN-vn-qGI"/>
@@ -98,10 +98,10 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="131" id="xtd-RF-7Uc">
-                                        <rect key="frame" x="0.0" y="286.5" width="320" height="131"/>
+                                        <rect key="frame" x="0.0" y="306.5" width="414" height="131"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="xtd-RF-7Uc" id="zRU-HH-7Hd">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="131"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="131"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Custom View" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8zz-Nf-okS">
@@ -111,7 +111,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="36n-VX-EHw" customClass="TLSegmentedControl" customModule="TLSegmentedControl_iOS">
-                                                    <rect key="frame" x="20" y="71" width="280" height="50"/>
+                                                    <rect key="frame" x="20" y="71" width="374" height="50"/>
                                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="50" id="W6Z-NQ-lg8"/>
@@ -136,7 +136,7 @@
                             <outlet property="delegate" destination="RMv-2w-yZk" id="xkH-Bx-7Lf"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="Pgo-yH-C9m"/>
+                    <navigationItem key="navigationItem" title="TLSegmentedControl" id="Pgo-yH-C9m"/>
                     <connections>
                         <outlet property="customAppearanceSegmentedControl" destination="SjR-eI-bDW" id="dR0-Fz-jHQ"/>
                         <outlet property="customViewSegmentedControl" destination="36n-VX-EHw" id="MZo-SD-zMz"/>
